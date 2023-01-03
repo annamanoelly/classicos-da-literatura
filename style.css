@@ -1,0 +1,125 @@
+.center{
+  text-align: center;
+}
+.banner{
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 341px;
+}
+h1 {
+ 
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #c7a35c;
+} 
+
+.img-container{
+  box-shadow: 0 0  2em #c7a35c;
+  overflow: hidden;
+
+  
+}
+
+.img-container img{
+  box-shadow: 0 0 2em #c7a35c;
+  -webkit-transition: -webkit-transform .5s ease;
+  transition: transform .5s ease;
+  
+}
+
+.img-container:hover img{
+  box-shadow: 0 0 2em #c7a35c;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  
+}
+.fonte{
+  font-family: "Sofia", sans-serif;
+  text-shadow: 1px 1px 1px  white;
+  color: #696969;
+
+}
+
+.sombra{
+      box-shadow: 0 0  2em #c7a35c;
+      overflow: hidden;
+}
+.p{
+  text-align: left;
+  
+}
+
+#main-orgulho{
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  font-size: 20px;
+  
+}
+#regiao-banner{
+  background-image: url('banner-fundo-o-homem-mais-rico-babilonia.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 346px;
+  justify-items: center;
+  align-items: center;
+}
+@media (max-width: 770px) {
+  .img-container img{
+      height: 250px;
+      width: auto;
+  }
+  #regiao-banner{
+      grid-template-rows: 270px;
+  }
+}
+@media (max-width: 700px) {
+  #main-orgulho{
+      grid-template-columns: 1fr;
+      justify-items: center;
+  }
+
+  .banner{
+      min-height: 200px;
+  }
+
+  
+
+  .img-container{
+      min-width: 50px;
+  }
+
+}
+@media (max-width: 530px) {
+  .img-container img{
+      height: 180px;
+      width: auto;
+  }
+  #regiao-banner{
+      grid-template-rows: 200px;
+  }
+}
+@media (max-width: 530px) {
+  #main-orgulho .sombra{
+      width: 100%;
+      margin-left: 0!important;
+  }
+}
+
+.fundo{
+  background-color: #c5bfb6;
+}
+
+  
+
+
+
+
+
+
+
+   
