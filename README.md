@@ -1,2 +1,3 @@
-# classicos-da-literatura
-primeiro projeto usando html/css
+# clássicos-da-literatura
+
+Primeira página usando html/css
